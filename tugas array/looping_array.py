@@ -9,8 +9,8 @@ alamat = ["Jalan setia budi nomor", 5, "RT", 6, "RW", 9, "sektor", 1.2]
 def operasi_interger():
     total = 0
 
-    for i in tinggi:
-        total += i
+    for angka in tinggi:
+        total += angka
     print(f"penjumlahan: {total}")
 
     for i in tinggi:
@@ -29,14 +29,14 @@ def operasi_interger():
 def gabung_string():
     kalimat = ""
 
-    for i in perkenalan:
-        kalimat += i
+    for kata in perkenalan:
+        kalimat += kata
     print(kalimat)
 
 
 def gabung_string_integer():
-    for i in alamat:
-        print(i, end=" ")
+    for kata in alamat:
+        print(kata, end=" ")
 
 
 gabung_string()
